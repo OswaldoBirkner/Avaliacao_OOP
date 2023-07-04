@@ -1,10 +1,10 @@
 package Biblioteca.interfaces;
 
 public interface GerenciarBiblioteca {
-    addNewBook();
-    deleteBook();
-    listBooks();
-    registerLoanBook();
-    recordBookReturn();
+    void addNewBook();
+    void deleteBook();
+    void listBooks();
+    void registerLoanBook();
+    void recordBookReturn();
 
 }

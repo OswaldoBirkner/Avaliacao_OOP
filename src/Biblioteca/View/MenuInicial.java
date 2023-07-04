@@ -26,11 +26,11 @@ public class MenuInicial {
         int opcaoSelecionada = 0;
 
         while (executando) {
-            opcaoSelecionada = Integer.parseInt(JOptionPane.showInputDialog(montarMenuPrincipal()));
+            opcaoSelecionada = Integer.parseInt(JOptionPane.showInputDialog(("")));
 
             switch (opcaoSelecionada) {
                 case 1:
-                    int opcao = Integer.parseInt(JOptionPane.showInputDialog);
+                    int opcao = Integer.parseInt(JOptionPane.showInputDialog(""));
                     break;
                 case 2:
                     // Chamar menu cliente

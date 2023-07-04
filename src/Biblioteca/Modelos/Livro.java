@@ -51,11 +51,10 @@ public class Livro extends ItemBiblioteca {
 
     @Override
     public void devolver() {
-        if (status == Status.DISPONIVEL){
-        System.out.println(titulo + " devolvido");
-    } else {
-            System.out.println(titulo + "ainda não foi devolvido!");
-        }
+        if (status == Status.EMPRESTADO){
+            status = Status.DISPONIVEL;
+            System.out.println(titulo + " devolvido");
+        } 
     }
 
 }
